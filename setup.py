@@ -2,10 +2,11 @@
 
 from distutils.core import setup
 
-setup(name='Populate',
+setup(name='populate',
     version='0.5.0',
     description='Python functions for generating random values, intended to use to randomize datasets',
     author='Wiggins',
     author_email='django@concentricsky.com',
+    packages=['populate'],
     url='http://github.com/coffindragger/populate',
 )
