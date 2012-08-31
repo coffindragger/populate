@@ -36,6 +36,11 @@ def random_noun(how_many=1):
     if how_many == 1:
         return random.choice(NOUNS)
     return random.sample(NOUNS, how_many)
+    
+def random_adjective(how_many=1):
+    if how_many == 1:
+        return random.choice(ADJECTIVES)
+    return random.sample(ADJECTIVES, how_many)
 
 def random_domain():
     return '%s.%s' % (random_noun(), random.choice(TLDS))
