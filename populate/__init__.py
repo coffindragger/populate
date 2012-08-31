@@ -4,7 +4,7 @@ import re
 import datetime
 
 
-VERSION = (0,5,0)
+VERSION = (0,5,1)
 
 
 def random_bool():
